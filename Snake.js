@@ -2,7 +2,7 @@
 var canvas = document.getElementById('game');
 var context = canvas.getContext('2d');
 
-var grid = 16;
+var grid = 10;
 var count = 0;
   
 var snake = {
