@@ -18,7 +18,7 @@ var snake = {
 
   
   // length of the snake. grows when eating an apple
-  maxCells: 1
+  maxCells: 4
 };
 var apples = {
     apple:[],
@@ -42,7 +42,7 @@ function loop() {
   requestAnimationFrame(loop);
 
   // slow game loop to 15 fps instead of 60 (60/15 = 4)
-  if (++count < 10) {
+  if (++count < 1) {
     return;
   }
 
