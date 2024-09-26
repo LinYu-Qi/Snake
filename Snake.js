@@ -18,7 +18,7 @@ var snake = {
 
   
   // length of the snake. grows when eating an apple
-  maxCells: 4
+  maxCells: 1
 };
 var apples = {
     apple:[],
