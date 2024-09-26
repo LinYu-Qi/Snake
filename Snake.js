@@ -2,7 +2,7 @@
 var canvas = document.getElementById('game');
 var context = canvas.getContext('2d');
 
-var grid = 5;
+var grid = 16;
 var count = 0;
   
 var snake = {
@@ -42,7 +42,7 @@ function loop() {
   requestAnimationFrame(loop);
 
   // slow game loop to 15 fps instead of 60 (60/15 = 4)
-  if (++count < 4) {
+  if (++count < 1) {
     return;
   }
 
